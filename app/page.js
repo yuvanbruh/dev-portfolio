@@ -47,9 +47,10 @@ export default function HomePage() {
 
         {/* AS FEATURED IN Section */}
         <section className="absolute bottom-24 w-full text-center z-10 px-4">
-          <p className="text-gray-400 uppercase tracking-widest text-xs sm:text-sm md:text-base mb-4">
-            Brands I've worked with
-          </p>
+       <p className="text-gray-400 uppercase tracking-widest text-xs sm:text-sm md:text-base mb-4">
+  Brands I&apos;ve worked with
+</p>
+
           <div className="flex flex-wrap justify-center items-center gap-6 sm:gap-10 md:gap-16 opacity-70">
             {['Upwork', 'Automotives Manufacturers Pvt Ltd'].map((brand) => (
               <span
