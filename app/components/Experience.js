@@ -131,7 +131,7 @@ const experiences = [
     title: 'Freelance Full-Stack Developer',
     period: '2024 – Present',
     description:
-      'Working with early-stage founders to build emotionally resonant, fast-shipping MVPs using Next.js, MongoDB, and Tailwind. Focused on crafting interfaces that feel personal and perform at scale.',
+      'Working with early stage founders to build emotionally resonant, fast-shipping MVPs using Next.js, MongoDB, and Tailwind. Focused on crafting interfaces that feel personal and perform at scale.',
     tech: ['Next.js', 'Tailwind', 'MongoDB', 'Framer Motion', 'NextAuth'],
     remote: true,
     link: '',
@@ -140,7 +140,7 @@ const experiences = [
     title: 'Website Developer @ PPS Renault (Internship)',
     period: '2024',
     description:
-      'Delivered a production-ready WordPress site for PPS Renault (Automotives Manufacturers Ltd) with SEO, analytics, and design team collaboration. Shipped end-to-end in under 4 weeks.',
+      'Delivered a production ready WordPress site for PPS Renault (Automotives Manufacturers Ltd) with SEO, analytics, and design team collaboration. Shipped end-to-end in under 4 weeks.',
     tech: ['WordPress', 'Elementor', 'SEO', 'Google Analytics'],
     remote: false,
     link: '',
@@ -250,7 +250,7 @@ export default function ExperiencePage() {
 
     <p className="text-lg text-gray-400 mb-8 leading-relaxed">
       Got a product idea or a feature you want to ship fast? <br />
-      I work with founders and early teams to bring ideas to life — with clean design, solid code, and a sense of mood.
+      I work with founders and early teams to bring ideas to life with clean design, solid code, and a sense of mood.
     </p>
 
     <a
@@ -283,7 +283,7 @@ export default function ExperiencePage() {
         rel="noopener noreferrer"
         className="hover:text-white transition duration-200"
       >
-        Twitter
+        {/* Twitter */}
       </a>
     </div>
   </div>
