@@ -277,14 +277,7 @@ export default function ExperiencePage() {
       >
         GitHub
       </a>
-      <a
-        href="https://x.com/YOUR_USERNAME"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="hover:text-white transition duration-200"
-      >
-        {/* Twitter */}
-      </a>
+
     </div>
   </div>
 </section>
